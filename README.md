@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RupakGanvir/monte-carlo-t20-simulation/blob/main/notebooks/MonteCarlo_T20_RunChase.ipynb)
+
 # Can Your Team Chase 180? — T20 Cricket Monte Carlo Simulation
 
 Every cricket fan has had this argument. _"180 is chaseable, the pitch is flat."_ vs _"nobody averages 9 an over for 20 overs straight."_
