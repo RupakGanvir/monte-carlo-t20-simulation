@@ -1,6 +1,6 @@
 # Can Your Team Chase 180? — T20 Cricket Monte Carlo Simulation
 
-Every cricket fan has had this argument. *"180 is chaseable, the pitch is flat."* vs *"nobody averages 9 an over for 20 overs straight."*
+Every cricket fan has had this argument. _"180 is chaseable, the pitch is flat."_ vs _"nobody averages 9 an over for 20 overs straight."_
 
 Instead of arguing, I simulated it. 100,000 times.
 
@@ -19,10 +19,10 @@ I built this while studying probability distributions in CE605 at IIT Kanpur. Th
 ## Results (chasing 180, avg 8 runs/over)
 
 | Outcome | Probability |
-|---------|------------|
-| Win     | ~17.9%     |
-| Tie     | ~0.9%      |
-| Loss    | ~81.2%     |
+| ------- | ----------- |
+| Win     | ~17.9%      |
+| Tie     | ~0.9%       |
+| Loss    | ~81.2%      |
 
 Turns out the "it's chaseable" crowd is usually wrong. At 8 runs per over average, 180 is a genuinely hard ask.
 
@@ -31,24 +31,28 @@ Turns out the "it's chaseable" crowd is usually wrong. At 8 runs per over averag
 ## Plots
 
 ### What one over looks like
+
 The right tail on the runs distribution is the key insight — those occasional 20-run overs are exactly what makes T20 unpredictable.
 
-![Input distributions](images/distributions.png)
+![Input distributions](Images/distributions.png)
 
 ### Where most innings end up
+
 Most scores cluster between 130–170. The green region is where wins happen — only ~18% of innings get there.
 
-![Score distribution](images/score_distribution.png)
+![Score distribution](Images/score_distribution.png)
 
 ### Law of Large Numbers in action
+
 Early on the estimate jumps around a lot. After ~5,000 trials it barely moves. This is why Monte Carlo needs enough trials to be meaningful.
 
-![Convergence](images/convergence.png)
+![Convergence](Images/convergence.png)
 
 ### The full picture — win probability vs target
+
 The 50/50 line sits at around 150. Every 10 runs above that roughly halves your chances.
 
-![Sensitivity analysis](images/sensitivity.png)
+![Sensitivity analysis](Images/sensitivity.png)
 
 ---
 
@@ -108,4 +112,4 @@ The model assumes a constant run rate and wicket rate throughout the innings. Re
 
 ---
 
-*Built while studying CE605 (Probability and Statistics) at IIT Kanpur.*
+_Built while studying CE605 (Probability and Statistics) at IIT Kanpur._
