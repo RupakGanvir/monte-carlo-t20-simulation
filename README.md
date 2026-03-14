@@ -92,10 +92,10 @@ TARGET = 200
 ## Running it
 
 ```bash
-git clone https://github.com/RupakGanvir/monte-carlo-t20.git
-cd monte-carlo-t20
+git clone https://github.com/RupakGanvir/monte-carlo-t20-simulation.git
+cd monte-carlo-t20-simulation
 pip install -r requirements.txt
-jupyter notebook MonteCarlo_T20_RunChase.ipynb
+jupyter notebook Monte_Carlo_T20_Run_Chase.ipynb
 ```
 
 The sensitivity analysis cell takes about a minute. Everything else is fast.
