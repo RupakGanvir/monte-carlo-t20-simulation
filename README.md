@@ -114,4 +114,4 @@ The model assumes a constant run rate and wicket rate throughout the innings. Re
 
 ---
 
-_Built while studying CE605 (Probability and Statistics) at IIT Kanpur._
+_Built while studying Probability and Statistics at IIT Kanpur._
